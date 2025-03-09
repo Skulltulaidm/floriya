@@ -14,18 +14,18 @@ type FlowerProduct = {
 export default function FlowersPage() {
   // Sample product data
   const products: FlowerProduct[] = [
-    { id: "1", name: "Ela's", price: 218, image: "/placeholder.svg?height=300&width=300" },
-    { id: "2", name: "Sweet Orchid", price: 124, image: "/placeholder.svg?height=300&width=300" },
-    { id: "3", name: "Gratitude Bouquet", price: 104, image: "/placeholder.svg?height=300&width=300" },
-    { id: "4", name: "White Blooms", price: 160, image: "/placeholder.svg?height=300&width=300" },
-    { id: "5", name: "Velvet Crush", price: 160, image: "/placeholder.svg?height=300&width=300" },
-    { id: "6", name: "Yellow Love", price: 140, image: "/placeholder.svg?height=300&width=300" },
-    { id: "7", name: "Endless Love", price: 100, image: "/placeholder.svg?height=300&width=300" },
-    { id: "8", name: "Majestic Melody", price: 220, image: "/placeholder.svg?height=300&width=300" },
-    { id: "9", name: "Deep Desire", price: 110, image: "/placeholder.svg?height=300&width=300" },
-    { id: "10", name: "Sweet Symphony", price: 68, image: "/placeholder.svg?height=300&width=300" },
-    { id: "11", name: "Sunshine Bouquet", price: 86, image: "/placeholder.svg?height=300&width=300" },
-    { id: "12", name: "Amore Infinito", price: 114, image: "/placeholder.svg?height=300&width=300" },
+    { id: "1", name: "Ela's", price: 218, image: "/A2.png?height=300&width=300" },
+    { id: "2", name: "Sweet Orchid", price: 124, image: "/A1.png?height=300&width=300" },
+    { id: "3", name: "Gratitude Bouquet", price: 104, image: "/A4.png?height=300&width=300" },
+    { id: "4", name: "White Blooms", price: 160, image: "/A8.png?height=300&width=300" },
+    { id: "5", name: "Velvet Crush", price: 160, image: "/A9.png?height=300&width=300" },
+    { id: "6", name: "Yellow Love", price: 140, image: "/A7.png?height=300&width=300" },
+    { id: "7", name: "Endless Love", price: 100, image: "/A3.png?height=300&width=300" },
+    { id: "8", name: "Majestic Melody", price: 220, image: "/A5.png?height=300&width=300" },
+    { id: "9", name: "Deep Desire", price: 110, image: "/gallery-three.png?height=300&width=300" },
+    { id: "10", name: "Sweet Symphony", price: 68, image: "/gallery-two.png?height=300&width=300" },
+    { id: "11", name: "Sunshine Bouquet", price: 86, image: "/A6.png?height=300&width=300" },
+    { id: "12", name: "Amore Infinito", price: 114, image: "/gallery-one.png?height=300&width=300" },
   ]
 
   return (

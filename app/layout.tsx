@@ -19,8 +19,7 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   title: "FLORIYA - Flower Shop",
-  description: "Beautiful flower arrangements for all occasions",
-    generator: 'v0.dev'
+  description: "Beautiful flower arrangements for all occasions"
 }
 
 export default function RootLayout({

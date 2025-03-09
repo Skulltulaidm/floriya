@@ -15,7 +15,7 @@ const products = [
     id: "1",
     name: "Ela's",
     price: 218,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A2.png?height=600&width=600",
     description:
       "A stunning arrangement of premium seasonal flowers in soft pastel tones, perfect for any special occasion.",
   },
@@ -23,7 +23,7 @@ const products = [
     id: "2",
     name: "Sweet Orchid",
     price: 124,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A1.png?height=600&width=600",
     description:
       "Elegant orchids arranged with complementary greenery, creating a sophisticated and long-lasting gift.",
   },
@@ -31,56 +31,56 @@ const products = [
     id: "3",
     name: "Gratitude Bouquet",
     price: 104,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A4.png?height=600&width=600",
     description: "Express your thanks with this thoughtful arrangement of mixed flowers in cheerful colors.",
   },
   {
     id: "4",
     name: "White Blooms",
     price: 160,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A8.png?height=600&width=600",
     description: "Pure and elegant white flowers create a timeless arrangement perfect for any occasion.",
   },
   {
     id: "5",
     name: "Velvet Crush",
     price: 160,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A9.png?height=600&width=600",
     description: "Rich red and burgundy blooms create a romantic and luxurious bouquet that makes a bold statement.",
   },
   {
     id: "6",
     name: "Yellow Love",
     price: 140,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A7.png?height=600&width=600",
     description: "Bright and cheerful yellow flowers bring sunshine and joy to any space or occasion.",
   },
   {
     id: "7",
     name: "Endless Love",
     price: 100,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A3.png?height=600&width=600",
     description: "A romantic arrangement symbolizing eternal love, featuring classic blooms in soft colors.",
   },
   {
     id: "8",
     name: "Majestic Melody",
     price: 220,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A5.png?height=600&width=600",
     description: "A premium arrangement featuring a harmonious blend of luxury blooms in pastel purples and pinks.",
   },
   {
     id: "9",
     name: "Deep Desire",
     price: 110,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/gallery-three.png?height=600&width=600",
     description: "Bold and passionate arrangement featuring striking red anthuriums and complementary blooms.",
   },
   {
     id: "10",
     name: "Sweet Symphony",
     price: 68,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/gallery-two.png?height=600&width=600",
     description:
       "A delicate arrangement of pink roses and complementary flowers, creating a sweet and harmonious display.",
   },
@@ -88,14 +88,14 @@ const products = [
     id: "11",
     name: "Sunshine Bouquet",
     price: 86,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/A6.png?height=600&width=600",
     description: "Bright yellow blooms bring warmth and happiness, perfect for brightening someone's day.",
   },
   {
     id: "12",
     name: "Amore Infinito",
     price: 114,
-    image: "/placeholder.svg?height=600&width=600",
+    image: "/gallery-one.png?height=600&width=600",
     description: "A romantic mix of soft pink and white flowers symbolizing infinite love and affection.",
   },
 ]
@@ -146,7 +146,7 @@ export default function ProductPage() {
           <div className="grid md:grid-cols-2 gap-12">
             <div className="aspect-square relative rounded-xl overflow-hidden bg-gray-100">
               <Image
-                src={product.image || "/placeholder.svg"}
+                src={product.image || "/placeholder.png"}
                 alt={product.name}
                 fill
                 className="object-cover"

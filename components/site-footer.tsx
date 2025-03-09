@@ -37,21 +37,21 @@ export function SiteFooter() {
           <div className="flex flex-col items-end">
             <div className="flex gap-6 mb-4">
               <Link
-                href="https://instagram.com"
+                href="https://www.instagram.com/floriyaflowers"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Follow us on Instagram"
               >
                 <Instagram size={24} />
               </Link>
               <Link
-                href="https://facebook.com"
+                href="https://www.facebook.com/floriyaflowers"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Follow us on Facebook"
               >
                 <Facebook size={24} />
               </Link>
               <Link
-                href="https://wa.me/12108505315"
+                href="https://www.messenger.com/t/floriyaflowers"
                 className="hover:opacity-80 transition-opacity"
                 aria-label="Contact us on WhatsApp"
               >
